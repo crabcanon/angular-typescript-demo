@@ -1,0 +1,36 @@
+<h2 class="ui center aligned icon header">
+  Details of {{repo.item.name}}
+</h2>
+
+<div class="ui segment">
+    <div class="ui large relaxed divided list">
+        <div class="item">
+            <div class="content">
+                <a class="header">Name</a>
+                <div class="description">{{repo.item.name}}</div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="content">
+                <a class="header">Language</a>
+                <div class="description">{{repo.item.language}}</div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="content">
+                <a class="header">Description</a>
+                <div class="description">{{repo.item.description}}</div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="content">
+                <a class="header">Link</a>
+                <a ng-href="{{repo.item.html_url}}">{{repo.item.html_url}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="ui white basic button" ng-click="repo.goBack()">
+  Go Back
+</button>

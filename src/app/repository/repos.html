@@ -1,0 +1,23 @@
+<h2 class="ui center aligned icon header" style="margin-bottom: 50px;">
+  Ye Huang's Github Repositories
+</h2>
+
+<div class="ui four stackable cards">
+    <a class="ui card" ng-repeat="repo in repos.items" ng-click="repos.goRepo(repo.name)">
+        <div class="content">
+            <div class="header">{{repo.name}}</div>
+            <div class="meta">
+                <span class="right floated time">size: {{repo.size}}</span>
+                <span class="category">{{repo.language}}</span>
+            </div>
+            <div class="description">
+                <p>{{repo.description}}</p>
+            </div>
+        </div>
+        <div class="extra content">
+            <div class="right floated author">
+            <img class="ui avatar image" ng-src="{{repo.owner.avatar_url}}"> {{repo.owner.login}}
+            </div>
+        </div>
+    </a>
+</div>
