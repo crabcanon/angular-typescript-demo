@@ -28,12 +28,13 @@ After:
 
 ## License
 
-* [MIT License](http://choosealicense.com/licenses/mit/).
+[MIT License](http://choosealicense.com/licenses/mit/).
 
-## Contact
+---
 
-* Email: sysuhuangye@gmail.com
-* Personal website: https://yehuang.me
+> [yehuang.me](https://yehuang.me) &nbsp;&middot;&nbsp;
+> GitHub [@crabcanon](https://github.com/crabcanon) &nbsp;&middot;&nbsp;
+> Gmail [@sysuhuangye](<mailto:sysuhuangye@gmail.com>)
 
 
 
